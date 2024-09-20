@@ -18,7 +18,7 @@ menuItem.forEach(item => {
 
 document.addEventListener("scroll", () => {
     const scrollPosition = window.scrollY; // Use window.scrollY to get the vertical scroll position
-    if (scrollPosition > 300) {
+    if (scrollPosition > 250) {
         header.style.backgroundColor = "#29323c";
     } else {
         header.style.backgroundColor = "transparent"; // Correct spelling here
