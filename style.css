@@ -518,6 +518,7 @@ color: white;
     height: 300px;
     overflow: hidden;
     position: relative;
+    width: 600px;
 }
 
 #projects .project-img::after{
@@ -751,6 +752,7 @@ color: white;
 
 #footer{
    background-image:linear-gradient(60deg, #29323c 0%, #485563 100%);
+   margin-top: 170px;
 }
 
 #footer .footer{
