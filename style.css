@@ -498,6 +498,18 @@ background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 color: white;
 }
 
+#projects .project-info a{
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+    /* padding: 0px 20px; */
+    font-size: 2rem;
+   
+}
+
 #projects .project-info h1{
     font-size: 4rem;
     font-weight: 500;
@@ -578,17 +590,17 @@ color: white;
     margin-top: 20px;
 }
 #about .about {
-    display: flex; /* Add this to enable flexbox */
+    display: flex; 
     flex-direction: column-reverse;
     text-align: center;
     max-width: 1200px;
     margin: 0 auto;
     padding: 100px 20px;
-    position: relative; /* Add this for absolute positioning */
+    position: relative; 
 }
 
 #about .column-left {
-    width: 250px; /* Consider using percentages for responsiveness */
+    width: 250px; 
 }
 
 #about .column-right {
@@ -615,7 +627,7 @@ color: white;
 
 #about .column-left .about-img {
     width: 100%;
-    height: 100%; /* Changed to auto for responsiveness */
+    height: 100%; 
     border: 10px solid white;
     position: relative;
 
